@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    actice: dev
+    
+---
+spring:
+  profiles: dev
+  application:
+    name: springcloud-config-dev
+    
+---
+spring:
+  profiles:
+  application:
+    name: springcloud-config-test
